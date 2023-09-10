@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>ClairPrev - PrevIT</title>
+<link rel="stylesheet" type="text/css"
+	href="webjars/bootstrap/4.0.0-2/css/bootstrap.min.css" />
+</head>
+<body>
+	<div class="container">
+		<h1>ClairPrev Prévoyance - Confirmation de la creation du Contrat</h1>
+		<p>
+			Numero Assure: <span th:text="${numeroAssure}"></span>
+		</p>
+
+		<p>
+			Numero Produit: <span th:text="${numeroProduit}"></span>
+		</p>
+		<p>
+			Numero Contrat: <span th:text="${numeroContrat}"></span>
+		</p>
+		<p>
+			Date de début: <span th:text="${dateDebut}"></span>
+		</p>
+	</div>
+	
+	<script type="text/javascript"
+		src="webjars/bootstrap/4.0.0-2/js/bootstrap.min.js"></script>
+</body>
+</html>
